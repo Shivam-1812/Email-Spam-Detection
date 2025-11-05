@@ -60,7 +60,6 @@ Spam-Detector/
 ├── test_results.csv
 └── misclassified.csv
 
-text
 
 ---
 
@@ -70,29 +69,22 @@ text
 git clone https://github.com/Shivam-1812/Email-Spam-Detection.git
 cd Email-Spam-Detection
 
-text
 
 ### 2️⃣ Create a virtual environment
 python -m venv venv
 
-text
 
 ### 3️⃣ Activate the environment
 **Windows PowerShell:**
 .\venv\Scripts\Activate.ps1
 
-text
 
 **macOS/Linux:**
 source venv/bin/activate
 
-text
-
 ### 4️⃣ Install dependencies
 python -m pip install --upgrade pip setuptools
 pip install pandas scikit-learn flask joblib numpy
-
-text
 
 ### 5️⃣ Verify dataset
 Ensure the file `data/SMSSpamCollection` exists.  
@@ -114,22 +106,18 @@ If not, download it from the [UCI Repository](https://archive.ics.uci.edu/ml/dat
 ### 🔹 Train the Model
 python spam_train.py
 
-text
 
 ### 🔹 Analyze Errors
 python analyze_errors.py
 
-text
 
 ### 🔹 Run Console Demo
 python demo_threshold.py
 
-text
 
 ### 🔹 Run Flask Web App
 python app.py
 
-text
 
 Then open your browser and go to:  
 👉 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
@@ -141,8 +129,6 @@ Then open your browser and go to:
 Message: Congratulations! You won a free iPhone!
 Prob(spam): 0.82
 Label: SPAM
-
-text
 
 ---
 
