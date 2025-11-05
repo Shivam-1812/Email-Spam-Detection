@@ -42,27 +42,6 @@ It uses the **UCI SMS Spam Collection Dataset** and applies NLP preprocessing, T
 
 ---
 
-## 🗂️ Project Structure
-
-Spam-Detector/
-│
-├── data/
-│ ├── SMSSpamCollection
-│ └── readme
-│
-├── spam_train.py # trains and saves the model
-├── test_model.py # predicts from a file
-├── analyze_errors.py # evaluates and finds misclassified samples
-├── demo_threshold.py # console demo with custom threshold
-├── app.py # Flask web app
-│
-├── spam_model.joblib # trained model
-├── test_messages.txt # input for testing
-├── test_results.csv # model predictions
-└── misclassified.csv # misclassified messages
-
-
----
 
 ## ⚙️ Setup & Installation
 
